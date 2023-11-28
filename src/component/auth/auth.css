@@ -1,0 +1,276 @@
+/* start admin login css */
+
+.admin-login-main-flex {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login-left-main {
+  width: 100%;
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.admin-login-right-main {
+  width: 100%;
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.login-left-bg {
+  height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/login-bg.jpg");
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+}
+
+.admin-login-main {
+  max-width: 380px;
+  margin: auto;
+  width: 100%;
+}
+
+.login-btn-main .login-btn {
+  margin-top: 28px;
+}
+
+.checkbox-main .checkbox-lable {
+  color: #6b7280;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.checkbox-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.checkbox-main .MuiButtonBase-root {
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.checkbox-lable .MuiFormControlLabel-label {
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.admin-login-inner .admin-wel-text {
+  color: #111827;
+  font-size: 24px;
+  line-height: 25px;
+  font-family: "Roboto-Bold";
+  margin-bottom: 4px;
+}
+
+.admin-login-inner .admin-sign-para {
+  margin-bottom: 32px;
+  color: #6b7280;
+}
+
+.input-box .form-lable {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  font-family: "Roboto-Medium";
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: #6b7280;
+}
+
+.input-box {
+  margin-bottom: 28px;
+}
+
+.admin-forgot-para {
+  color: #114a65;
+}
+
+.input-box .MuiInputBase-root {
+  width: 100%;
+}
+
+.input-box .MuiInputBase-root fieldset:hover {
+  border-color: transparent;
+}
+
+.input-box .form-control-eye input {
+  padding: 8px 15px;
+}
+/* end admin login css */
+
+/* start or text design */
+
+.or-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Roboto-Medium";
+  margin: 30px 0px 0px;
+  position: relative;
+  max-width: max-content;
+  background-color: #fff;
+}
+.condition-content {
+  text-align: center;
+}
+.condition-content .condition-text {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Roboto-Regular";
+}
+.condition-content .condition-span {
+  color: #114a65;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Roboto-Medium";
+  text-decoration: none;
+}
+.or-text-main {
+  position: relative;
+  margin: 30px 0px;
+}
+
+.or-text-main .or-cocntent-text {
+  background: #fff;
+  margin: auto;
+  z-index: 9;
+  position: relative;
+  text-align: center;
+  width: 44px;
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Roboto-Medium";
+}
+
+.or-text-main::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #d3d5d6;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* end or text design */
+
+/* start otp page */
+
+.otp-input-box .form-group .form-control input {
+  max-width: 70px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Roboto-Regular";
+}
+
+.otp-input-box .form-group .MuiFormControl-root {
+  max-width: 70px;
+}
+
+.otp-input-box .form-group .form-control input::placeholder {
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Roboto-Regular";
+}
+
+.otp-flex-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.otp-input-box {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.otp-flex-main .otp-input-box:last-child {
+  margin-right: 0px;
+}
+
+/* end otp page */
+
+/* start chnage password page css */
+
+.change-pass-main {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 514px;
+  width: 100%;
+}
+
+/* end chnage password page css */
+
+/* start auth footer social meadia */
+
+.social-main .social-ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  margin: 20px 0px;
+  justify-content: center;
+}
+
+.social-main .social-ul .social-li {
+  padding: 0px;
+  margin: 0px;
+  width: max-content;
+}
+
+.social-box {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #d1d5db;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  height: 15px;
+  width: 15px;
+  object-fit: contain;
+}
+
+.social-main .social-ul .social-li:last-child .social-box {
+  margin-right: 0px;
+}
+
+/* end auth footer social meadia */
+
+.auth-bg-main {
+  background: var(--main-primary);
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 50%;
+}
+.admin-login-box {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}

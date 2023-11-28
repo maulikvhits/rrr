@@ -1,0 +1,145 @@
+@media screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+/* ipad pro */
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* phone and tablets */
+@media screen and (max-width: 991px) {}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+      .body-overflow {
+            overflow: hidden;
+      }
+      .user-list-flex {
+            align-items: flex-start;
+            flex-direction: column;
+      }
+
+
+}
+
+/* phone */
+@media (max-width: 767px) {
+      .admin-sidebar-logo-main .sidebar-close-btn {
+            display: block;
+      }
+
+      .dashboard-containt-main {
+            padding: 88px 15px 24px 15px;
+      }
+
+      .admin-dashboard-inner-box {
+            max-width: 100%;
+      }
+
+      .dashboard-content .admin-page-title {
+            font-size: 20px;
+            line-height: 25px;
+      }
+
+      .admin-dashboard-inner-box .admin-dash-price {
+            font-size: 20px;
+            line-height: 25px;
+      }
+
+
+      .export-btn-main .export-btn,
+      .export-btn-main .export-btn:hover {
+            margin-right: 0px;
+      }
+
+      .dashboard-content .user-list-page-title {
+            margin-bottom: 20px;
+      }
+
+      .bergurmenu-icon {
+            height: 20px;
+            object-fit: contain;
+            width: 20px;
+      }
+
+      .admin-header-icon-box {
+            margin-right: 15px;
+      }
+
+      .admin-header-row .bergur-button {
+            padding: 0px;
+            min-width: 37px;
+      }
+
+      .dashboard-left-main {
+            flex: 0 1;
+            max-width: 0;
+            width: 0;
+      }
+
+      .dashboard-right-main {
+            margin-left: 0px;
+      }
+
+      .admin-sidebar-logo-main {
+            display: flex;
+            justify-content: space-between;
+      }
+
+      .close-icon {
+            height: 23px;
+            width: 23px;
+            object-fit: contain;
+            display: block;
+      }
+
+      .admin-sidebar-logo {
+            order: initial;
+            margin: initial;
+      }
+
+      .admin-header-main.active .admin-sidebar-logo {
+            opacity: 1;
+            display: block;
+            height: 35px;
+            margin-left: 10px;
+            order: 1;
+      }
+
+      .admin-header-main.admin-header-deactive .admin-sidebar-logo {
+            opacity: 1;
+            margin-left: 10px;
+            height: 35px;
+      }
+
+      .admin-header-main {
+            left: 0;
+      }
+
+      .admin-header-deactive .admin-header-logo-main {
+            flex-direction: row-reverse;
+      }
+
+      .filter-main .MuiDrawer-paper {
+            min-width: 300px;
+            max-width: 300px;
+      }
+
+      .progress-bar-text {
+            right: 0px;
+            top: -23px;
+      }
+
+      .body-overflow {
+            overflow: hidden;
+      }
+
+      .header-sidebar-logo {
+            order: 2;
+      }
+
+      .modal .modal-inner {
+            max-width: 350px;
+      }
+}

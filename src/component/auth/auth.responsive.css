@@ -1,0 +1,53 @@
+@media screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
+
+@media screen and (max-width: 991px) {
+      .admin-login-left-main {
+            display: none;
+      }
+
+      .admin-login-right-main {
+            width: 100%;
+            max-width: 100%;
+            flex: 0 0 100%;
+      }
+
+      .admin-login-box {
+            padding: 50px 15px 100px 15px;
+      }
+
+      .login-left-bg {
+            height: 50vh;
+            background-size: cover;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+      .admin-login-left-main {
+            display: none;
+      }
+
+      .admin-login-right-main {
+            width: 100%;
+            max-width: 100%;
+            flex: 0 0 100%;
+      }
+
+      .admin-login-box {
+            padding: 50px 15px 50px 15px;
+      }
+
+      .login-left-bg {
+            height: 50vh;
+      }
+
+}
+
+@media screen and (min-width: 280px) and (max-width:374px) {}
